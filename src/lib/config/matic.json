@@ -1,0 +1,44 @@
+{
+    "key": "137",
+    "chainId": 137,
+    "name": "Polygon",
+    "shortName": "Polygon",
+    "network": "matic",
+    "unknown": false,
+    "rpc": "https://rpc-mainnet.maticvigil.com/v1/c9fa2322d8972ddeee326fcb1007e9c409753ebb",
+    "ws": "wss://rpc-mainnet.maticvigil.com/ws/v1/c9fa2322d8972ddeee326fcb1007e9c409753ebb",
+    "explorer": "https://polygon-explorer-mainnet.chainstacklabs.com/",
+    "poolsUrlV1": "http://3.237.237.238//pools.json",
+    "poolsUrlV2": "https://storageapi.fleek.co/johngrantuk-team-bucket/poolsV2.json",
+    "addresses": {
+      "bFactory": "0x50BBF261B64Fc7135A1d0C381515c30887986700",
+      "bActions": "0x401419a66c6F7f4fC88E0E4433dB607470a91551",
+      "dsProxyRegistry": "0x3404870942B515AaCc54682878063dA96c6806bE",
+      "exchangeProxy": "0x9147fc0268757F59522A4600c2C90104E2F2381a",
+      "multicall": "0xE9eE4948aAD926B298Bb56bf734eD665fAA2eDdB",
+      "weth": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+
+      "authorizer": "0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6",
+      "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+      "weightedPoolFactory": "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9",
+      "stablePoolFactory": "",
+      "tokenFactory": "",
+      "MockFlashLoanReceiver": "",
+      "balancerHelpers": "0x5aDDCCa35b7A0D07C74063c48700C8590E87864E"
+    },
+    "strategies": {
+      "0": {
+        "type": "0",
+        "name": "stablePool"
+      },
+      "1": {
+        "type": "1",
+        "name": "weightedPool"
+      },
+      "2": {
+        "type": "2",
+        "name": "weightedPool"
+      }
+    }
+  }
+  
